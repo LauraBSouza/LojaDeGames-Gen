@@ -28,7 +28,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 		private String nome;
 		
 		@NotBlank(message = "A descrição do jogo é obrigatório!")
-		@Size(min = 5, max = 1000, message = "A descrição deve ter no mínimo 10 e no máximo 1000 caracteres")
+		@Size(min = 5, max = 100, message = "A descrição deve ter no mínimo 10 e no máximo 1000 caracteres")
 		private String descricao;
 		
 		
